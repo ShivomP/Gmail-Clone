@@ -15,3 +15,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Medial Queries */
+
+@media(max-width: 500px){
+  .emaillist__settings{
+    display: none;
+  }
+  .header__middle{
+    display: none;
+  }
+}
